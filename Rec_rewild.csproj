@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ApplicationIcon>icon2.ico</ApplicationIcon>
+    <AssemblyName>Rec_rewild</AssemblyName>
+    <RootNamespace>Rec_rewild</RootNamespace>
+    <Authors>wiiboi69</Authors>
+    <PackageIcon>icon2.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/wiiboi69/Rec_rewild</RepositoryUrl>
+    <PackageProjectUrl>https://discord.gg/daC8QUhnFP</PackageProjectUrl>
+    <Company>Rec_rewild</Company>
+    <Version>0.0.2</Version>
+
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <None Remove="Fleck.dll" />
+    <None Remove="Fleck.pdb" />
+    <None Remove="NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="1.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\..\r16server\making new server\websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\memey\Downloads\icon2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
