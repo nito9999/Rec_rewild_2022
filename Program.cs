@@ -112,7 +112,7 @@ namespace start
             appversion = appversion.Replace("\n", String.Empty);
             appversion = appversion.Replace("\r", String.Empty);
             appversion = appversion.Replace("\t", String.Empty);
-            Console.WriteLine("Rec_rewild - a fork of OpenRec for Rec Room 2021. (Version: " + appversion + ")");
+            Console.WriteLine("Rec_rewild - a fork of OpenRec for Rec Room 2022. (Version: " + appversion + ")");
             Console.WriteLine("Download source code here: https://github.com/wiiboi69/Rec_rewild");
             Console.WriteLine("Discord server here: https://discord.gg/qZhThdFMjy");
             Console.WriteLine("This is a full server rewrite version" + Environment.NewLine);
