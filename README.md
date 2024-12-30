@@ -1,6 +1,6 @@
 # Welcome to 🅱️lue_car!
 ---
-🅱️lue_car is a fork of ![image](https://github.com/user-attachments/assets/96afb1f3-ab3a-4f60-9884-e7dbc3f1a8c9)
+🅱️lue_car is a fork of aaaaaaaaaaaaaaa
  for 2021!
 
 ### Branches
